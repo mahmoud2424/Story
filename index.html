@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Journey of Currency | Fun Learning!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Cairo:wght=400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <div class="logo">💰 The Journey of Currency Through History</div>
+        <button id="home-btn" class="nav-btn" style="display:none;">🏠 Home</button>
+    </header>
+
+    <main id="app">
+        
+        <div id="game-list" class="grid-container">
+            
+            <div class="article-card evolution-article">
+                <h2>📜 Currency Evolution: From Drachma to the Egyptian Pound</h2>
+                <p class="intro">
+                    Currency reflects civilization and trade, and its journey has undergone radical transformations. It began with bartering, then evolved into precious metals, and finally into standardized coins that shaped global commerce.
+                </p>
+                
+                <div class="currency-section">
+                    <h3>The Greek Drachma & Roman Denarius: The Ancient Start</h3>
+                    <div class="img-group">
+                        <img width="300" src="d.jpg" alt="Image of Greek Drachma" onerror="this.onerror=null;this.src='https://placehold.co/200x120/E8D218/FFF?text=Drachma';">
+                        <img width="300" src="y.jpg" alt="Image of Roman Denarius" onerror="this.onerror=null;this.src='https://placehold.co/200x120/A8A8A8/FFF?text=Denarius';">
+                    </div>
+                    <p>
+                        The **Greek Drachma** was one of the earliest widely circulated metal coins, symbolizing the strength of Hellenic civilization. It was followed by the **Roman Denarius**, which dominated trade during the Roman Empire and structured the economic system inherited by later empires.
+                    </p>
+                </div>
+
+                <div class="currency-section">
+                    <h3>The Gold Dinar & Silver Dirham: The Islamic Era</h3>
+                    <div class="img-group">
+                        <img src="af.jpg" alt="Image of Gold Dinar" onerror="this.onerror=null;this.src='https://placehold.co/200x120/FFD700/FFF?text=Gold+Dinar';">
+                    </div>
+                    <p>
+                        The **Gold Dinar** and the **Silver Dirham** formed the backbone of the Islamic economy from its inception. The Dinar was minted from pure gold and the Dirham from silver. Their stable value and standardized design made them global currencies for trade across Asia, Africa, and Europe.
+                    </p>
+                </div>
+                
+                <div class="currency-section">
+                    <h3>The Ottoman Akce & Egyptian Pound: Modern Currencies</h3>
+                    <div class="img-group">
+                        <img src="aa.jpg" alt="Image of Ottoman Akce" onerror="this.onerror=null;this.src='https://placehold.co/200x120/B0E0E6/FFF?text=Akce';">
+                        <img width="300" src="aaa.jpg" alt="Image of Egyptian Pound" style="border: 3px solid var(--accent);">
+                    </div>
+                    <p>
+                        Ottoman currencies like the **Akçe** played an important role in regional trade. The **Egyptian Pound** (EGP), introduced in the 19th century, was initially linked to gold and has since evolved into the current national currency. The Egyptian Pound remains a symbol of the modern Egyptian economy.
+                    </p>
+                </div>
+            </div>
+
+            <div class="story-card external-link">
+                <div id="sjb-8924" style="width: 100%; max-width: 480px; margin: 0 auto;">
+                    <style> .external-link a:hover img { transform: translateY(-5px); } </style>
+                    <a href="https://www.storyjumper.com/book/read/186384331/692b3147e4b41" target="_blank" style="text-decoration: none; display: block;">
+                        <img src="//www.storyjumper.com/book/coverImage/186384331/692b3147e4b41/480" 
+                             alt="Book titled &lsquo;Laila and the Magic Money Bag&rsquo;" 
+                             style="border-radius: 20px; width: 100%; height: auto; transition: transform 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+                    </a>
+                </div>
+                <h3 style="padding: 1rem 0; text-align: center;">Story: "Laila and the Magic Money Bag"</h3>
+            </div>
+            
+                    </div> 
+        
+                <div id="game-area" class="hidden">
+            <h2 id="game-title" style="text-align: center; color: var(--primary); margin-bottom: 20px;"></h2>
+            
+            <div id="puzzle-container" class="hidden" style="max-width: 450px; margin: 0 auto;">
+                <div id="puzzle-board" class="puzzle-board">
+                    </div>
+            </div>
+            
+            <p id="feedback-message" style="text-align: center; font-size: 1.5rem; margin-top: 30px; font-weight: bold; min-height: 40px;"></p>
+            <div id="game-controls" style="text-align: center; margin-top: 30px;">
+                <button id="next-puzzle-btn" class="action-btn primary hidden" style="width: 200px;">Shuffle Again</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="celebration-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

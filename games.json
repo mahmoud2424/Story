@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2,
+    "title": "puzzle",
+    "thumbnail": "./A.jpg",
+    "type": "puzzle",
+    "image": "./A.jpg",
+    "pieces": 4,
+    "rows": 2,
+    "cols": 2
+  }
+]
